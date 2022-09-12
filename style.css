@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+a{
+    text-decoration: none;
+}
 img{
     cursor: pointer;
     width: 5cm;
@@ -15,4 +18,50 @@ img{
 }
 .ridwan-augustyo-maulana{
     text-align: center;
+}
+
+.best-babaturan{
+    text-align: center;
+    margin: 20px;
+}
+.table{
+    border-collapse: collapse;
+    width: 95%;
+    margin-left: 30px;
+    background-color: yellowgreen;
+    
+}
+td,th{
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+    cursor: pointer;
+    padding: 10px;
+}
+.judul-tabel{
+    background-color: yellow;
+}
+td:hover{
+    background-color: rgb(233, 233, 44);
+}
+th:hover{
+    background-color: rgb(233, 233, 44);
+}
+h1{ 
+	font-family: 'calibri'; 
+    color: rgb(27, 26, 26);
+}
+.tombol a{
+    background-color: greenyellow;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 2px;
+    color: black;
+    display: block;
+    margin-left: 40%;
+    margin-right: 40%;
+    text-align: center;
+}
+body{
+    background-color: grey;
 }
